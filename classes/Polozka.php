@@ -6,7 +6,7 @@ class Polozka {
     public $kod;
     public $cena;
     public $pocetKusu;
-    
+    public $kategorie;
 }
 
 ?>

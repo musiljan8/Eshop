@@ -5,7 +5,7 @@ class Kategorie {
     public $cislo;
     public $druhy;
     public $pocetDruhu;
-    
+    public $polozka;
 }
 
 

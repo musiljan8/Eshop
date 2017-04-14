@@ -3,6 +3,7 @@
 require_once 'classes/Uzivatel.php';
 require_once 'classes/Kategorie.php';
 require_once 'classes/Polozka.php';
+require_once 'classes/Kosik.php';
 
 $uzivatel = new Uzivatel();
 $uzivatel->nazev = "Pables";
@@ -22,10 +23,16 @@ $polozka->kod = 11003;
 $polozka->cena =  99;
 $polozka->pocetKusu = 48;
 
+$kosik = new Kosik();
+$kosik->uzivatel = "nazev";  //jak zadat podminku ze jenom jeden???
+$kosik->polozka = "nazev";
+$kosik->polozka = "pocetKusu";       
+
 
 
 
 echo $polozka->nazev;
+echo $uzivatel->nazev;
 
 ?>
 

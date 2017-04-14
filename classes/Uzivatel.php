@@ -6,7 +6,7 @@ class Uzivatel {
     public $prijmeni;
     public $firma;
     public $email;
-    
+    public $kosik;
 }
 
 ?>
