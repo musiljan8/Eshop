@@ -32,7 +32,9 @@ $kosik->polozka = "pocetKusu";
 
 
 echo $polozka->nazev;
+echo ('<br />');
 echo $uzivatel->nazev;
+echo ('<br />');
 
 ?>
 
